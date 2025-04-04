@@ -22,12 +22,12 @@ Run the script with the following command-line arguments:
 
 ```python3 script.py --host <HOST> --login <USERNAME> --password <PASSWORD>```
 
-Arguments:\
+### Arguments:
 ```--host:``` The IP address or hostname of the Motorola EBTS Site Controller.\
 ```--login:``` The username for logging into the Site Controller.\
 ```--password:``` The password for logging into the Site Controller.
 
-Output
+## Output
 The script will output the parsed status information in JSON format. Example:
 ```
 {
