@@ -56,6 +56,7 @@ The script will output the parsed status information in JSON format. Example:
 If the script does not behave as expected:
 
 Enable real-time Telnet output logging by inspecting the console output by uncommenting this line from the code:
+
 ```#child.logfile = sys.stdout.buffer  # Print Telnet output to the console```
 
 Ensure the ```User Name:``` and ```Password:``` prompts match the expected format (e.g., leading spaces).
